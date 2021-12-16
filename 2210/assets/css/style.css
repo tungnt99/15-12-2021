@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#header {
+    background-color: #a1f7e6;
+}
+
+#header .excel-online {
+    height: 90px;
+    margin: 5px 0 0 50px;
+}
+
+#menu {
+    height: 50px;
+    background-color: #b01105;
+}
+
+#nav {
+    padding-left: 70px;
+}
+
+#nav li {
+    display: inline-block;
+}
+
+#nav li a {
+    line-height: 50px;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 24px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+#nav li:hover a {
+    background-color: #78110a;
+}
+
+.down-icon {
+    font-size: 14px;
+}
+
+#content {
+    padding: 25px 8%;
+}
+
+.container-left {
+    float: left;
+}
+
+h1 {
+    color: #b01105;
+    margin-bottom: 15px;
+}
+
+.col-5 {
+    height: 300px;
+}
+
+.title {
+    color: white;
+    background-color: black;
+    font-size: 18px;
+    padding: 10px 15px 0 0;
+    margin: 15px;
+    width: fit-content;
+}
+
+.sub-title {
+    color: white;
+    background-color: black;
+    font-size: 14px;
+    padding: 5px;
+    width: fit-content;
+    margin: 15px;
+}
+
+.col-3 {
+    width: 450px;
+    height: 200px;
+    background-color: #9faaab;
+    position: relative;
+    float: left;
+}
+
+.col-3 .avt {
+    position: absolute;
+    width: 80px;
+    border-radius: 50%;
+    top: 160px;
+    left: 15px;
+}
+
+.col-3 .excel {
+    position: absolute;
+    width: 80px;
+    right: 15px;
+    top: 160px;
+}
+
+.col-2 {
+    float: right;
+    width: 400px;
+    margin-left: 20px;
+    text-align: justify;
+}
+
+.btn-reading {
+    text-decoration: none;
+    color: #b01105;
+}
+
+.container-right {
+    float: right;
+    width: 360px;
+}
+
+.container-right .search {
+    width: 360px;
+    height: 46px;
+    font-size: 24px;
+    background-color: #dff0ef;
+    border: solid #fff;
+    position: relative;
+}
+
+.search-icon {
+    position: absolute;
+    font-size: 21px;
+    right: 130px;
+    top: 188px;
+}
+
+h2 {
+    margin: 10px 0;
+    color: #754e38;
+}
+
+.excel {
+    float: left;
+}
+
+.content-excel {
+    float: right;
+    width: 190px;
+    margin-left: 15px;
+}
+
+.img {
+    width: 150px;
+}
+
+.btn-primary {
+    text-align: justify;
+    text-decoration: none;
+    color: #000;
+}
+
+.col-8 {
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.facebook,
+.youtube,
+.email {
+    width: 80px;
+    padding: 0 10px;
+}
+
+.goki {
+    width: 150px;
+}
